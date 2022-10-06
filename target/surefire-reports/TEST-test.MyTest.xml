@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.MyTest" time="0.571" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\IDEA\specialty\target\test-classes;E:\IDEA\specialty\target\classes;D:\tools\mavenRepository\junit\junit\4.11\junit-4.11.jar;D:\tools\mavenRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\tools\mavenRepository\org\springframework\spring-context\5.2.5.RELEASE\spring-context-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-aop\5.2.5.RELEASE\spring-aop-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-beans\5.2.5.RELEASE\spring-beans-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-core\5.2.5.RELEASE\spring-core-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-expression\5.2.5.RELEASE\spring-expression-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-aspects\5.2.5.RELEASE\spring-aspects-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;D:\tools\mavenRepository\org\springframework\spring-webmvc\5.2.5.RELEASE\spring-webmvc-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-web\5.2.5.RELEASE\spring-web-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-tx\5.2.5.RELEASE\spring-tx-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-jcl\5.2.5.RELEASE\spring-jcl-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-jdbc\5.2.5.RELEASE\spring-jdbc-5.2.5.RELEASE.jar;D:\tools\mavenRepository\com\alibaba\druid\1.1.12\druid-1.1.12.jar;D:\tools\mavenRepository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;D:\tools\mavenRepository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;D:\tools\mavenRepository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;D:\tools\mavenRepository\org\mybatis\mybatis-spring\2.0.3\mybatis-spring-2.0.3.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\tools\mavenRepository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="E:\IDEA\IntelliJ IDEA 2020.1.2\jbr\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire1048357179127729604\surefirebooter6584700241006408699.jar C:\Windows\Temp\surefire1048357179127729604 2022-10-04T17-26-01_430-jvmRun1 surefire9244059342916260554tmp surefire_017406385428466154484tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\IDEA\specialty\target\test-classes;E:\IDEA\specialty\target\classes;D:\tools\mavenRepository\junit\junit\4.11\junit-4.11.jar;D:\tools\mavenRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\tools\mavenRepository\org\springframework\spring-context\5.2.5.RELEASE\spring-context-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-aop\5.2.5.RELEASE\spring-aop-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-beans\5.2.5.RELEASE\spring-beans-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-core\5.2.5.RELEASE\spring-core-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-expression\5.2.5.RELEASE\spring-expression-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-aspects\5.2.5.RELEASE\spring-aspects-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;D:\tools\mavenRepository\org\springframework\spring-webmvc\5.2.5.RELEASE\spring-webmvc-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-web\5.2.5.RELEASE\spring-web-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-tx\5.2.5.RELEASE\spring-tx-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-jcl\5.2.5.RELEASE\spring-jcl-5.2.5.RELEASE.jar;D:\tools\mavenRepository\org\springframework\spring-jdbc\5.2.5.RELEASE\spring-jdbc-5.2.5.RELEASE.jar;D:\tools\mavenRepository\com\alibaba\druid\1.1.12\druid-1.1.12.jar;D:\tools\mavenRepository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;D:\tools\mavenRepository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;D:\tools\mavenRepository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;D:\tools\mavenRepository\org\mybatis\mybatis-spring\2.0.3\mybatis-spring-2.0.3.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\tools\mavenRepository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\tools\mavenRepository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="E:\IDEA\IntelliJ IDEA 2020.1.2\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\IDEA\specialty"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire1048357179127729604\surefirebooter6584700241006408699.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+10-b765.53"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-11.0.7.10-765.53-jfx"/>
+    <property name="localRepository" value="D:\tools\mavenRepository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="E:\IDEA\specialty"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\IDEA\IntelliJ IDEA 2020.1.2\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;D:\java\jdk-11.0.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ASUS\AppData\Local\Android\Sdk;D:\tomcat8.5.58\bin;D:\tools\mysql-8.0.28-winx64\bin;D:\tools\apache-maven-3.3.9\bin;D:\Git\cmd;D:\Git\bin;D:\node\;E:\BaiduNetdisk\Visual C++ 6.0\VC6\Microsoft SDK\bin\winnt;E:\BaiduNetdisk\Visual C++ 6.0\VC6\Microsoft SDK\bin;E:\BaiduNetdisk\Visual C++ 6.0\VC6\Common\Tools\WinNT;E:\BaiduNetdisk\Visual C++ 6.0\VC6\Common\MSDev98\Bin;E:\BaiduNetdisk\Visual C++ 6.0\VC6\Common\Tools;E:\BaiduNetdisk\Visual C++ 6.0\VC6\VC98\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;E:\IDEA\IntelliJ IDEA 2020.1.2\bin;;E:\Microsoft VS Code\bin;D:\tools\mysql-8.0.28-winx64\bin;C:\Users\ASUS\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.7+10-b765.53"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\tools\mavenRepository"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Md5Test" classname="test.MyTest" time="0.015"/>
+  <testcase name="mybatisTest" classname="test.MyTest" time="0.105">
+    <error message="IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist" type="org.springframework.beans.factory.BeanDefinitionStoreException">org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at test.MyTest.mybatisTest(MyTest.java:34)
+Caused by: java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at test.MyTest.mybatisTest(MyTest.java:34)
+</error>
+  </testcase>
+  <testcase name="uuidTest" classname="test.MyTest" time="0.43"/>
+</testsuite>

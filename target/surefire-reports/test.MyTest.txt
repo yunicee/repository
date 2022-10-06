@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.MyTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.571 s <<< FAILURE! - in test.MyTest
+mybatisTest(test.MyTest)  Time elapsed: 0.105 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at test.MyTest.mybatisTest(MyTest.java:34)
+Caused by: java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at test.MyTest.mybatisTest(MyTest.java:34)
+

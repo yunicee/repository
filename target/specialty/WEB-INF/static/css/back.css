@@ -1,0 +1,12 @@
+.back {
+    margin-left: 100px;
+    margin-top: 16px;
+    font-size: 17px;
+}
+.back a {
+    color: #666;
+    text-decoration: none;
+}
+.back a:hover {
+    color: blue;
+}

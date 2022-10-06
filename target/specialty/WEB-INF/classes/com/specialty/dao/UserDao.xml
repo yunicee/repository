@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.specialty.dao.UserDao">
+    <sql id="all">
+        userid,username,sex,password,phone,email,money,userImg
+    </sql>
+<!--    int update(User user);-->
+    <!--private String userName;
+    private boolean sex;
+    private String password;
+    private String phone;
+    private String email;
+    private String userImg;-->
+    <update id="update" parameterType="user">
+        update users
+        <set>
+            <if test="userName != null">
+                username = #{userName},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="phone != null">
+                phone = #{phone},
+            </if>
+            <if test="email != null">
+                email = #{email},
+            </if>
+            <if test="userImg != null" >
+                userImg = #{userImg},
+            </if>
+        </set>
+        where userid = #{userId}
+    </update>
+<!--    User selectOneByid(int id);-->
+    <select id="selectOneByid" parameterType="int" resultType="user">
+        select <include refid="all"></include> from users where userid = #{userId}
+    </select>
+</mapper>
